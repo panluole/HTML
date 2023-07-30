@@ -1,0 +1,4 @@
+运行说明
+1.网页首页index.html
+2.首页点击导航栏的技术研究则跳转到technology.html
+3.首页点击导航栏的研究成果则跳转到achievement.html

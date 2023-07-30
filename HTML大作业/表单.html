@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>表单</title>
+	</head>
+	<body>
+		<form>
+			<table border='0' width='700' height='500' cellspacing='20' bgcolor='CCCCFF'>
+				<tr>
+					<td align='center' colspan='2'><span style='color:CC66FF'>
+							<h3>茗茶馆茶叶订购</h3>
+						</span></td>
+				</tr>
+				<tr>
+					<td align='right'>茶叶品种：</td>
+					<td><input type='text' name='type1' size='30'></td>
+				</tr>
+				<tr>
+					<td align='right'>类型：</td>
+					<td><input type='radio' name='type2' value='ye'>茶叶（50g装）<br>
+						<input type='radio' name='type2' value='bao'>茶包（5g*10包）
+					</td>
+				</tr>
+				<tr>
+					<td align='right'>数量（袋）：</td>
+					<td><input type='text' name='num' size='30'></td>
+				</tr>
+				<tr>
+					<td align='right'>希望送货日期：</td>
+					<td><input type='text' name='time' size='30'></td>
+				</tr>
+				<tr>
+					<td align='right'>附加服务：</td>
+					<td>包邮<input type='checkbox' name='serve' value='baozhuang'><br>
+						目录<input type='checkbox' name='serve' value='mulu'>
+					</td>
+				</tr>
+				<tr>
+					<td align='right'>
+						<h3>邮寄地址</h3>
+					</td>
+				</tr>
+				<tr>
+					<td align='right'>姓名：</td>
+					<td><input type='text' name='name1' size='30' value='请输入收货人姓名'></td>
+				</tr>
+				<tr>
+					<td align='right'>详细地址：</td>
+					<td><input type='text' name='dizhi' size='30' value='请输入详细收货地址'></td>
+				</tr>
+				<tr>
+					<td align='right'>邮编：</td>
+					<td><input type='text' name='youbian' size='30' value='请输入收邮编'></td>
+				</tr>
+				<tr>
+					<td align='right'>联系电话：</td>
+					<td><input type='text' name='phone' size='30' value='请输入收货人手机号'></td>
+				</tr>
+				<tr>
+					<td align='right' valign='top'>留言：</td>
+					<td><textarea name='liuyan' cols='50' rows='5'></textarea><br>
+						<input type='submit' value='立即订购'>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

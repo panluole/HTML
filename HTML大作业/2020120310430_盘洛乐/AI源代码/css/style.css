@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+/*HTML5新标签兼容低版本的IE*/
+article,aside,footer,header,section,footer,nav,figure,main{display:block;}
+
+/*页面样式初始化*/
+*{
+    padding: 0;
+    margin: 0;
+    font: inherit;
+}
+
+/*通用样式*/
+body{
+    background-color:royalblue;
+    font: 14px 微软雅黑, 黑体, Verdana, Arial, sans-serif;
+    color: #333333;
+    border-top: 8px solid #0055ff;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*外层盒子*/
+.wrap{
+    width: 960px;
+    margin: 0 auto;
+}
+
+/*头部*/
+.top-header{
+    margin: 10px 0;
+    height: 120px;
+}
+
+/*logo*/
+.AI-logo{
+    float: left;
+
+}
+
+/*导航*/
+.top-menu{
+    float: left;
+    margin-top: 83px;
+    margin-left: 30px;
+}
+
+.top-menu ul li{
+    display: inline;
+    background-color: #EEEEEE;
+    padding: 20px 80px;
+    margin: 0 10px;
+	
+}
+
+.top-menu ul li.selected, .top-menu ul li:hover{
+    background-color: #FBECA1;
+}
+
+.top-menu ul li a:link, .top-menu ul li a:visited{
+    color: #3c59a7;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*侧边栏*/
+.left-aside{
+    float: left;
+    width: 350px;	
+}
+
+.left-aside section{
+    background: #eeeeee url(../images/bg.gif) top left;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.left-aside h3{
+    color: #5555ff;
+    font-size: 1.2em;
+	font-weight: bold;
+    margin-bottom: 10px;	
+}
+
+/*ai欣赏*/
+.ai{
+	
+	}
+.ai figure{
+    float: left;
+	
+}
+
+.ai .figure-r{
+    margin-left: 20px;
+}
+
+.ai figure img{
+    width: 141px;
+    height: 158px;
+    border: 2px solid #ffffff;
+	
+}
+
+.ai figcaption{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}
+
+/*主内容区域*/
+main{
+    background: #eeeeee url(../images/bg.gif) top left;
+    padding: 20px;
+    margin-left: 360px;	
+}
+
+main article{
+    border-bottom: 1px dashed #4b7aa3;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+main .last-article{
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+main article h3{
+    color: #5555ff;
+    font-size: 1.2em;
+	font-weight: bold;
+    margin-bottom: 10px;	
+}
+
+main article p{
+    line-height: 1.5em;
+    text-indent: 30px;
+    margin: 10px 0;
+}
+
+main ol{
+	margin-left:50px;
+}
+
+main li{
+	line-height:1.5em;
+}
+
+/*technology内容区域*/
+.technology{
+	margin-left:0;
+}
+
+.technology article h3{
+    color: #5555ff;
+}
+
+.technology article{
+	border-color:#4B7AA3;
+}
+
+/*achievement内容区域*/
+.achievement{
+	margin-left:0;
+}
+
+.achievement article h3{
+    color: #4B7AA3;
+}
+
+.achievement article{
+	border-color:#4B7AA3;
+}
+
